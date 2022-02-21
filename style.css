@@ -125,7 +125,7 @@ header > #foto-portada {
 }
 
 /** SECCION ACERCA DE MI*/
-main > .descripcion {
+main > #descripcion {
     display: block;
     text-align: center;
     padding: 50px 230px;
@@ -143,12 +143,12 @@ main > section > p {
     color: #e5e5e5;
 }
 
-main > .descripcion > #estudios li {
+main > #descripcion > #estudios li {
     display: block;
     float: left;
 }
 
-main > .descripcion > #estudios {
+main > #descripcion > #estudios {
     display: block;
     position: relative;
     padding-left: 5px;
@@ -157,23 +157,85 @@ main > .descripcion > #estudios {
     margin-top: 40px;
 }
 
-main > .descripcion > #estudios > ul li #academlo {
+main > #descripcion > #estudios > ul li #academlo {
     margin-bottom: 3px;
 }
 
-main > .descripcion > #estudios > ul li h2 {
+main > #descripcion > #estudios > ul li h2 {
     margin-top: 10px;
 }
 
-main > .descripcion > #estudios > ul li p {
+main > #descripcion > #estudios > ul li p {
     margin-top: 8px;
     color: #e5e5e5;
 }
 
-main > .descripcion > #estudios > ul > li#posicionada {
+main > #descripcion > #estudios > ul > li#posicionada {
     display: block;
     position: absolute;
-    right: 0px;
+    right: 25px;
+}
+
+/** EXPERIENCIA*/
+main > #experiencia {
+    padding: 50px 230px;
+    background-color: #1f1d2c;
+}
+
+main > #experiencia > h2 {
+    font-family: FredokaOne;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main > #experiencia #empresas > ul {
+    display: block;
+    margin-bottom: 60px;
+}
+
+main > #experiencia #empresas > ul li {
+    display: block;
+    float: left;
+    margin-right: 120px;
+}
+
+main > #experiencia #empresas > ul .info {
+    display: block;
+    width: 145px;
+    margin-top: 28px; /* centrando verticalmente la caja */
+}
+main > #experiencia #empresas > ul .yearBox {
+    margin-top: 15px; /* centrando verticalmente la caja */
+    margin-right: 130px;
+    margin-left: 100px;
+}
+
+main > #experiencia #empresas > ul li .years {
+    line-height: 118px;
+}
+
+main > #experiencia #empresas > ul li img {
+    width: 150px;
+}
+
+main > #experiencia #empresas > ul li h2 {
+    margin-bottom: 5px;
+}
+
+main > #experiencia #empresas > ul li p {
+    color: #e5e5e5;
+    margin-bottom: 10px;
+}
+
+main > #experiencia #empresas,
+main > #experiencia #tira {
+    float: left;
+}
+
+main > #experiencia #tira img {
+    width: 20px;
+    margin-top: 25px;
 }
 
 /** FOOTER*/

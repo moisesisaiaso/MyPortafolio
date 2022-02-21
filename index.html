@@ -8,7 +8,9 @@
         <title>MiPortafolio</title>
     </head>
     <body>
+        <!-- ~HEADER -->
         <header>
+            <!-- ^Navegación -->
             <nav>
                 <ul>
                     <li><a href="#">Contacto</a></li>
@@ -19,6 +21,8 @@
                     <li><a href="#" class="amarillo">Home</a></li>
                 </ul>
             </nav>
+
+            <!-- ^Portada -->
             <div id="encabezado">
                 <h1 class="titulo letterSpacing">Moisés O.</h1>
                 <p class="subtitulo intro">
@@ -40,10 +44,9 @@
             <img id="foto-portada" src="Logos-Imágenes/yo.png" alt="yo" />
         </header>
 
-        <!-- MAIN -->
-
+        <!--~ MAIN -->
         <main id="cuerpo">
-            <section class="descripcion">
+            <section id="descripcion">
                 <h2 class="letterSpacing">Acerca de mi</h2>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis sunt
@@ -62,7 +65,7 @@
                         <li id="posicionada">
                             <img
                                 id="academlo"
-                                src="Logos-Imágenes/logo_academlo5.jpg"
+                                src="Logos-Imágenes/logo_academlo5.png"
                                 alt="ACADEMLO"
                             />
                             <h2>Academlo</h2>
@@ -73,8 +76,55 @@
                 </div>
                 <div class="clearFix"></div>
             </section>
-            <section id="experiencia"></section>
+
+            <!-- ^ Experiencia -->
+            <section id="experiencia">
+                <h2 class="letterSpacing">Experiencia</h2>
+                <div id="empresas">
+                    <ul id="amazon">
+                        <li>
+                            <img src="Íconos/ant-design_amazon-outlined.svg" alt="amazon" />
+                        </li>
+                        <li class="info">
+                            <h2>Amazon</h2>
+                            <p>UI Designer</p>
+                            <p>2015-2017</p>
+                        </li>
+                        <li class="yearBox"><h2 class="years">2años</h2></li>
+                        <div class="clearFix"></div>
+                    </ul>
+
+                    <ul id="air">
+                        <li><img src="Íconos/cib_airbnb.svg" alt="airbnb" /></li>
+                        <li class="info">
+                            <h2>Airbnb</h2>
+                            <p>Senior UX/UI</p>
+                            <p>2017-2018</p>
+                        </li>
+                        <li class="yearBox"><h2 class="years">1año</h2></li>
+                        <div class="clearFix"></div>
+                    </ul>
+
+                    <ul id="google">
+                        <li><img src="Íconos/akar-icons_google-fill.svg" alt="google" /></li>
+                        <li class="info">
+                            <h2>Google</h2>
+                            <p>Product Designer</p>
+                            <p>2018-Actualidad</p>
+                        </li>
+                        <li class="yearBox"><h2 class="years">2años</h2></li>
+                        <div class="clearFix"></div>
+                    </ul>
+                </div>
+
+                <div id="tira">
+                    <img src="Vectores/Group 35.svg" alt="tira" />
+                </div>
+                <div class="clearFix"></div>
+            </section>
         </main>
+
+        <!-- ~FOOTER -->
         <footer id="pie">&copy; Desarrollado por Moisés Isaias Ortíz Gracia</footer>
     </body>
 </html>
