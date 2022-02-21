@@ -184,6 +184,7 @@ main > #experiencia {
 
 main > #experiencia > h2 {
     font-family: FredokaOne;
+    font-size: 45px;
     font-weight: 200;
     text-align: center;
     margin-bottom: 30px;
@@ -236,6 +237,57 @@ main > #experiencia #tira {
 main > #experiencia #tira img {
     width: 20px;
     margin-top: 25px;
+}
+
+/**MIS HABILIDADES*/
+main > #habilidades {
+    padding: 50px 230px;
+    background-color: #1f1d2c;
+    position: relative;
+}
+
+main > #habilidades > h2 {
+    font-family: FredokaOne;
+    font-size: 45px;
+    font-weight: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 5;
+}
+
+main > #habilidades > div > ul {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 5;
+}
+
+main > #habilidades > div > ul li {
+    display: block;
+    float: left;
+    margin-right: 60px;
+}
+
+main > #habilidades > div > ul .porcentaje {
+    color: #f1a600;
+    font-family: FredokaOne;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+main > #habilidades > div > ul .info {
+    margin-top: 39px;
+}
+
+main > #habilidades > div > ul li > h2 {
+    width: 520px;
+}
+
+main > #habilidades > img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 450px;
 }
 
 /** FOOTER*/
