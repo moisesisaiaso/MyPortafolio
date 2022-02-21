@@ -29,6 +29,10 @@ body {
     color: #f1a600;
 }
 
+.gris {
+    color: #e5e5e5;
+}
+
 .letterSpacing {
     letter-spacing: 2px;
 }
@@ -43,6 +47,7 @@ header {
 
 h1.titulo {
     font-family: FredokaOne;
+    font-weight: 200;
     font-size: 150px;
     position: relative;
     z-index: 10;
@@ -120,3 +125,58 @@ header > #foto-portada {
 }
 
 /** SECCION ACERCA DE MI*/
+main > .descripcion {
+    display: block;
+    text-align: center;
+    padding: 50px 230px;
+    background-color: #242635;
+}
+
+main > section > h2 {
+    font-family: FredokaOne;
+    font-weight: 100;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+main > section > p {
+    color: #e5e5e5;
+}
+
+main > .descripcion > #estudios li {
+    display: block;
+    float: left;
+}
+
+main > .descripcion > #estudios {
+    display: block;
+    position: relative;
+    padding-left: 5px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+main > .descripcion > #estudios > ul li #academlo {
+    margin-bottom: 3px;
+}
+
+main > .descripcion > #estudios > ul li h2 {
+    margin-top: 10px;
+}
+
+main > .descripcion > #estudios > ul li p {
+    margin-top: 8px;
+    color: #e5e5e5;
+}
+
+main > .descripcion > #estudios > ul > li#posicionada {
+    display: block;
+    position: absolute;
+    right: 0px;
+}
+
+/** FOOTER*/
+footer {
+    color: black;
+}
