@@ -158,7 +158,6 @@ main > #descripcion > #estudios li {
 main > #descripcion > #estudios {
     display: block;
     position: relative;
-    padding-left: 5px;
     width: 600px;
     margin: 0 auto;
     margin-top: 40px;
@@ -351,7 +350,56 @@ main > #portafolio > div > .dos {
     right: 0px;
 }
 
+/**CONTACTO*/
+main > #contacto {
+    display: block;
+    text-align: center;
+    padding: 50px 230px 70px 230px;
+    background-color: #242635;
+}
+
+main > #contacto > h2 {
+    font-family: FredokaOne;
+    font-weight: 100;
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+
+main > #contacto > div > ul li {
+    display: block;
+    float: left;
+}
+
+main > #contacto > #datos {
+    display: block;
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+main > #contacto > #datos > ul > li#posicionada {
+    display: block;
+    position: absolute;
+    right: 25px;
+}
+main > #contacto > #datos > ul > li > img:hover {
+    transform: scale(1.5);
+}
+main > #contacto > #datos > ul > li > img {
+    margin-bottom: 20px;
+    width: 100px;
+    transition: all 300ms;
+}
+
+main > #contacto > #datos > ul > li > h2 {
+    margin-bottom: 10px;
+}
+
 /** FOOTER*/
 footer {
-    color: black;
+    background-color: #1f1d2c;
+    min-height: 200px;
+    text-align: center;
+    line-height: 218px;
 }
